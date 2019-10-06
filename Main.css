@@ -1,0 +1,53 @@
+.p1 {
+ 	color: red;/*цвет шрифта*/
+	font-size: 50px;/*размер шрифта*/
+	font-family: Arial;/*стиль шрифта*/
+	}
+.p2 {
+ 	color: yellow;
+	font-size: 60px;
+	font-family: 'Stalinist One', cursive;
+	}
+.p3 {
+ 	color: green;
+	font-size: 70px;
+	font-family: 'Big Shoulders Text', cursive;
+	}
+.div1 {
+		width: 55%;/*ширина*/
+		margin: auto;/*внешний отступ*/
+		background-color: green;
+	  }
+.div2 {
+		width: 55%;/*ширина*/
+		margin: auto;/*внешний отступ*/
+		background-color: blue;
+		box-shadow: 10px 10px 10px 5px rgba(0,0,0,2)/*тень (первые 2 цифры меняют расположение)*/
+	  }
+.div3 {
+		width: 55%;/*ширина*/
+		margin: auto;/*внешний отступ*/
+		background-color: grey;
+	  }
+.a1 {
+	font-size: 70px;
+	text-decoration: none;/*дикарация текста*/
+	display: inline-block;/*коррекция ширины ссылки*/
+	border-bottom: 10px solid transparent;
+	transition: 0.2s ease-in;/*продолжительнось анимации*/
+	}
+.a2 {
+	font-size: 50px;
+	text-decoration: none;/*дикарация текста*/
+	color: black;
+	display: block;
+	margin: 40px 0;
+	}
+.img1{
+	max-width: 100%;
+	height: auto; /*высота*/
+	display: block;
+	 }
+.a1:hover /*наводка куросра*/{
+	border-bottom-color: red;
+	}
