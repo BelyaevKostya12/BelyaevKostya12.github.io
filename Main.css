@@ -1,6 +1,9 @@
+*{
+  background-color: #FFFFE0;
+ }
 .p1 {
- 	color: red;/*цвет шрифта*/
-	font-size: 50px;/*размер шрифта*/
+ 	color: grey;/*цвет шрифта*/
+	font-size: 20px;/*размер шрифта*/
 	font-family: Arial;/*стиль шрифта*/
 	}
 .p2 {
@@ -13,26 +16,50 @@
 	font-size: 70px;
 	font-family: 'Big Shoulders Text', cursive;
 	}
-.div1 {
+.body {
 		width: 55%;/*ширина*/
 		margin: auto;/*внешний отступ*/
-		background-color: green;
+		background-color: #dfebab;
+		box-shadow: 7px 7px 10px 1px rgba(1,1,1,0.9)
+		width: 100%;
+		padding: 30px 0;
+		text-align: center;
 	  }
-.div2 {
-		width: 55%;/*ширина*/
-		margin: auto;/*внешний отступ*/
-		background-color: blue;
-		box-shadow: 10px 10px 10px 5px rgba(0,0,0,2)/*тень (первые 2 цифры меняют расположение)*/
+p{
+  background-color:  #dfebab;
+ }
+.h1{
+   background-color:  #dfebab;
+  }
+.img1{
+	margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+   }
+.footer{
+		width: 100%;
+		padding: 30px 0;
+		text-align: center;
+	   }
+.header {
+		 font-size: 48px;
+		 text-align: center;
+		 width: 100%;
+		 padding: 30px 0;
+	  	}
+
+.div4 {
+		border:60px solid none;/* задаёт границу элемента(px - толщина)*/
 	  }
-.div3 {
-		width: 55%;/*ширина*/
-		margin: auto;/*внешний отступ*/
-		background-color: grey;
-	  }
-.a1 {
-	font-size: 70px;
-	text-decoration: none;/*дикарация текста*/
-	display: inline-block;/*коррекция ширины ссылки*/
+.div4:hover /*наводка куросра*/{
+	border-top-color: grey;
+	border-bottom-color: green;
+	border-left-color: red;
+	border-right-color: yellow;
+	 }
+.a{
+	font-size: 30px;
+	border-bottom-color: red;isplay: inline-block;/*коррекция ширины ссылки*/
 	border-bottom: 10px solid transparent;
 	transition: 0.2s ease-in;/*продолжительнось анимации*/
 	}
@@ -48,6 +75,10 @@
 	height: auto; /*высота*/
 	display: block;
 	 }
-.a1:hover /*наводка куросра*/{
+.a:hover /*наводка куросра*/{
 	border-bottom-color: red;
 	}
+.poisk{
+	   width: 25%;
+	   float: right;
+	  }
